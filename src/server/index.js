@@ -42,7 +42,7 @@ app.listen(8081, function () {
 
 // Respond with JS object when a GET request is made to the homepage
 //Since I don't use github for report, I set key on js file.
-apiKey2 ={key: "0d864607d54be86d564b0005e44ddd08"}
+apiKey2 ={key: "********************************"}
 app.get('/test2', function (req, res) {
     res.send(apiKey2);
 })
